@@ -234,6 +234,7 @@ body::-webkit-scrollbar {
         font-family: sans-serif;
     }
 }
+
 @media screen and (max-width: 768px) {
     .wrapper {
         display: block;
@@ -262,8 +263,9 @@ body::-webkit-scrollbar {
     .occupation {
         font-size: 1rem;
         font-weight: 900;
+    }
 }
-}
+
 @media screen and (max-width: 600px) {
     .create-account {
         padding: 0rem;
@@ -303,6 +305,8 @@ body::-webkit-scrollbar {
         padding-left: 3.5rem;
     }
 }
+
+
 @media screen and (max-width: 425px) {
     #sign-up {
         background: linear-gradient(rgba(136, 136, 125, 0.8), rgba(136, 136, 125, 0.8)), url(./asset/images/doodle.jpeg);
@@ -334,6 +338,5 @@ body::-webkit-scrollbar {
 
     .wrapper {
         background-color: #ffffff;
-        display: grid;
     } 
 }
